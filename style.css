@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 5vh;
+}
+
+
+.button {
+    width: 80px;
+    border-radius: 30px;
+}
+
+.button:hover{
+    height: 50px;
+    width: 100px;
+}
+
+.barranavegacao{
+    display: flex;
+    flex-direction:row;
+    align-items: center;    
+}
+
+.barranavegacao a :hover{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction:row;
+    align-items: center; 
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
